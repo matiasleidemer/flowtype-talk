@@ -1,0 +1,16 @@
+{
+  "name": "flowtype-examples",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.59.0"
+  },
+  "dependencies": {}
+}
