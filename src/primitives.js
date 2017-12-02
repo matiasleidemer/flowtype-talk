@@ -13,7 +13,9 @@ const varNull: null = null;
 const whatever: any = 1234;
 
 // literal example
-const logMessageColor = (severity: "info" | "warn" | "fatal") => {
+type Severity = "info" | "warn" | "fatal";
+
+const logMessageColor = (severity: Severity) => {
   switch (severity) {
     case "info"  : return "green";
     case "warn"  : return "yellow";
@@ -21,5 +23,5 @@ const logMessageColor = (severity: "info" | "warn" | "fatal") => {
   }
 }
 
-logMessageColor("info");
+// logMessageColor("info");
 // logMessageColor("foo");
