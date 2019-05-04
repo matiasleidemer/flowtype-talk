@@ -13,7 +13,7 @@ type Talk = {
 }
 
 // const matias: Author = { name: 'Matias', age: 30, tech: ['ruby', 'javascript'] };
-const thiago: Author = { name: 'Thiago', age: 31, tech: ['javascript'] };
+const thiago: Author = { name: 'Thiago', age: 31, tech: ['javascript'] }
 
 const talk: Talk = { subject: 'Flow', duration: 40, author: thiago }
 
@@ -29,7 +29,7 @@ const anotherTalk = {
 }
 
 const talkDurationInSeconds = (talk: Talk): number => {
-  return talk.duration * 60;
+  return talk.duration * 60
 }
 
 // talkDurationInSeconds(anotherTalk);
