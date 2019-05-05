@@ -1,25 +1,28 @@
 // @flow
 
-const varBoolean: bool = false;
+const varBoolean: boolean = false
 
-const varNumber: number = 42;
+const varNumber: number = 42
 
-const varString: string = "insiter";
+const varString: string = 'insiter'
 
-const varVoid: void = undefined;
+const varVoid: void = undefined
 
-const varNull: null = null;
+const varNull: null = null
 
-const whatever: any = 1234;
+const whatever: any = 1234
 
 // literal example
-type Severity = "info" | "warn" | "fatal";
+type Severity = 'info' | 'warn' | 'fatal'
 
 const logMessageColor = (severity: Severity) => {
   switch (severity) {
-    case "info"  : return "green";
-    case "warn"  : return "yellow";
-    case "fatal" : return "red";
+    case 'info':
+      return 'green'
+    case 'warn':
+      return 'yellow'
+    case 'fatal':
+      return 'red'
   }
 }
 

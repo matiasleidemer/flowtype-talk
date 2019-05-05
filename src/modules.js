@@ -7,4 +7,4 @@ const matias: Author = {
   name: 'Matias',
   age: 30,
   tech: ['ruby']
-};
+}
