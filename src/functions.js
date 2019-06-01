@@ -11,7 +11,7 @@ const sayMyName = (name: ?string): string => {
   if (name) {
     return `You're ${name}`
   } else {
-    return "You're nameless"
+    return "You have no name"
   }
 }
 

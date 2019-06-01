@@ -26,5 +26,5 @@ const logMessageColor = (severity: Severity) => {
   }
 }
 
-// logMessageColor("info");
+logMessageColor("info");
 // logMessageColor("foo");
