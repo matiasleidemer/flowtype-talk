@@ -5,13 +5,13 @@ const sayHello = (name: string): string => {
 }
 
 sayHello('Matias')
-// sayHello(1234);
+// sayHello(1234)
 
 const sayMyName = (name: ?string): string => {
   if (name) {
     return `You're ${name}`
   } else {
-    return "You have no name"
+    return 'You have no name'
   }
 }
 

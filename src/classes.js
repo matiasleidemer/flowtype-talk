@@ -6,7 +6,12 @@ class Talk {
   constructor(subject) {
     this.subject = subject
   }
+
+  getTalk = () => {
+    return this.subject
+  }
 }
 
-const rubyTalk: Talk = new Talk('ruby')
+const rubyTalk = new Talk('ruby')
+// rubyTalk.getTalk()
 // const phpTalk: Talk = new Talk('php')
