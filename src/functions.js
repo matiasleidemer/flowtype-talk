@@ -4,7 +4,7 @@ const sayHello = (name: string): string => {
   return `Hello ${name}`
 }
 
-sayHello('Matias')
+// sayHello('Matias')
 // sayHello(1234)
 
 const sayMyName = (name: ?string): string => {
@@ -15,7 +15,8 @@ const sayMyName = (name: ?string): string => {
   }
 }
 
-sayMyName('Heinsenberg')
+// sayMyName('Heinsenberg')
+// sayMyName()
 
 const weirdSum = (a: number | string, b: number | string): number | string => {
   return a + b

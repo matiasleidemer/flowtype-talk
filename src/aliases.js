@@ -12,19 +12,19 @@ type Talk = {
   author: Author
 }
 
-// const matias: Author = { name: 'Matias', age: 30, tech: ['ruby', 'javascript'] };
-const thiago: Author = { name: 'Thiago', age: 31, tech: ['javascript'] }
+// const matias: Author = { name: 'Matias', age: 32, tech: ['ruby', 'javascript'] };
+const thiago: Author = { name: 'Thiago', age: 33, tech: ['javascript'] }
 
 const talk: Talk = { subject: 'Flow', duration: 40, author: thiago }
 
 // We can use a literal object instead of the type itself
 const anotherTalk = {
-  subject: 'Managing and evolving JavaScript Code',
-  duration: 40,
+  subject: 'Um menimo chamado Javascripto',
+  duration: 30,
   author: {
-    name: 'Jean Emer',
-    age: 28,
-    tech: ['react']
+    name: 'Juliana Negreiros',
+    age: 25,
+    tech: ['js', 'ruby']
   }
 }
 
@@ -32,5 +32,5 @@ const talkDurationInSeconds = (talk: Talk): number => {
   return talk.duration * 60
 }
 
-// talkDurationInSeconds(anotherTalk);
-// talkDurationInSeconds({ duration: 50 });
+talkDurationInSeconds(anotherTalk)
+// talkDurationInSeconds({ duration: 50 })

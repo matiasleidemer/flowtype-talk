@@ -10,7 +10,7 @@ const whatever: any = 1234
 // literal example
 type Severity = 'info' | 'warn' | 'fatal'
 
-const logMessageColor = (severity: Severity) => {
+const logMessageColor = (severity: Severity): string => {
   switch (severity) {
     case 'info':
       return 'green'
@@ -18,8 +18,10 @@ const logMessageColor = (severity: Severity) => {
       return 'yellow'
     case 'fatal':
       return 'red'
+    default:
+      return 'green'
   }
 }
 
-logMessageColor('info')
+// logMessageColor('info')
 // logMessageColor('foo')
